@@ -12,3 +12,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.ls{padding-left:45px !important;
+
+  background: url('../src/images/appointment.png');
+  background-repeat: no-repeat;
+  background-position-x: 7px;
+  background-position-y:2px;
+  
+   
+  
+  
+
+}
+
+.phone{
+  padding-left:45px !important;
+
+  background: url('../src/images/phone.png');
+  background-repeat: no-repeat;
+  background-position-x: 7px;
+  background-position-y:2px;
+  
+
+}
+
+.country{
+   
+    padding-left:45px !important;
+  
+    background: url('../src/images/earth-globe.png');
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-position-y:2px;
+    
+  
+  }
+
+  .search{
+
+
+    background-image: url('../src/images/search.png');
+    padding-left:35px !important;
+width:400px;
+box-shadow: 2px 2px 2px 2px rgb(194, 194, 194);
+
+  background-size:22px;
+  background-repeat: no-repeat;
+  background-position-x: 7px;
+  background-position-y:4px;
+  
+  }
+
+  .selectors { 
+
+
+    color:rgb(116, 116, 116);
+  }
+
+  .selectors i { 
+    
+
+padding:10px;
+    border:1px solid rgb(192, 192, 192);
+    
+    box-shadow: 2px 2px 2px 2px rgb(194, 194, 194);
+    background-color: aliceblue;
+    border-radius:20%;
+    cursor:pointer;
+    position: relative;
+  }
+
+  .selectors .check{
+
+    position: absolute;
+    top:-5px;
+    left:34px;
+    z-index: 1;
+    
+    font-size:16px;
+    cursor:auto;
+
+  }
+
+
+.extra-logins{
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+}
+
+.btn-google{
+  background-color: rgb(247, 102, 65);
+  color: white;
+}
